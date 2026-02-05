@@ -1,0 +1,36 @@
+{
+  "name": "XHMaster - Premium Video Downloader",
+  "short_name": "XHMaster",
+  "description": "Premium Video Downloader and Converter. Fast, clean, and masterfully simple.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#0f0f0f",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": [
+    "utilities",
+    "entertainment"
+  ],
+  "shortcuts": [
+    {
+      "name": "Download Video",
+      "short_name": "Download",
+      "description": "Start a new video download",
+      "url": "/"
+    }
+  ]
+}
